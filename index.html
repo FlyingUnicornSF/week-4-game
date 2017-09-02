@@ -3,20 +3,51 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>crystals</title>
+    <title>Pokemon Battle!</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
     <script src="assets/javascript/game.js" type="text/javascript"></script>
+    <link href="assets/css/reset.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+
 </head>
 
 <body>
-    <div id="gameNumber"></div>
-    <div class="crystal" value="crystal1">c1</div>
-    <div class="crystal" value="crystal2">c2</div>
-    <div class="crystal" value="crystal3">c3</div>
-    <div class="crystal" value="crystal4">c4</div>
-    <div id="crystalTotal">0</div>
-    <div id="winTotal">0</div>
-    <div id="lossTotal">0</div>
-    <div id="reset">rest</div>
+    <header class="page-header text-center">
+        Pokemon Battle!!
+    </header>
+    <div class="container">
+        <div id="player-panel" class="row panel">
+            <div><p class="panel-heading">Your Pokemons</p></div> 
+            <!-- closing your pokemons -->
+            <div class="panel-body">
+                <ul id="playerList"></ul>
+            </div>
+            <!-- closing playerList -->
+        </div>
+        <!-- closing first row panel     -->
+        <div class="row panel">
+            <div><p class="panel-heading">Enemies</p></div>
+            <div class="panel-body">
+                <ul id="enemiesList"></ul>
+            </div>
+        </div> <!-- closing second Row Panel-->
+        <div class="row panel">
+            <p class="panel-heading">player is</p> 
+            <ul id="player"></ul>
+        </div>
+        
+            <button type="button" class="attack">attack</button>
+        <div class="row panel">
+            <p class="panel-heading">defender is</p>
+            <ul id="defender"></ul>
+            <p class="attack-summary"></p>
+            <p class="counter-attack-summary"></p>
+            <p class="pickDef"></p>
+        </div>
+        <button type="button" class="reset">reset</button>
+    </div> 
+    <!-- closing container -->
+</body>
+
 </html>

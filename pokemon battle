@@ -1,0 +1,49 @@
+pokemon battle
+
+bulbasaur
+charmender
+squirtle
+pikachu
+
+XHealth Points for each pokemon
+
+XAttack Power that increases every attack
+
+XCounter Attack Power
+
+initialize 
+  place players at the right space 
+
+  reset the HP and other points to default
+
+pick character 
+  Xmove the attribute of the pokemon into the player
+  
+  move the plaer to the player section 
+
+  move the rest of the pokemon to emerny section 
+
+pick a defender  
+  Xmove the attribute of the pokemon into the player
+  move the img to the defender section
+
+fight button 
+  Xon click 
+  Xsubtract attackpower from the defender HP 
+  Xsubtract counter attack power from players HP  
+  Xadd more attack power to attack power on the player
+
+lose 
+
+win   
+  Xincrease attckpower
+  hide the defender 
+  Xgo back to picking a defender 
+
+
+need var  
+
+  Xattackpower
+  XcounterAttack   
+
+

@@ -6,13 +6,13 @@ Xrandomizer for crystals
  need 4 of them (crystals-1, crystals-2, crystals-3, crystals-4)
 
 
-add numbers each click to total (crystalsTotal)
+Xadd numbers each click to total (crystalsTotal)
 
-compare total number to gameNumber
+Xcompare total number to gameNumber
 
-if it's bigger, then you lose 
+Xif it's bigger, then you lose 
 
-if it's the same, you win 
+Xif it's the same, you win 
 
 update the total win and loss number 
 
