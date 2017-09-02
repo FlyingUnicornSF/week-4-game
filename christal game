@@ -1,0 +1,19 @@
+christal game 
+
+Xrandomizer for main number (gameNumber) 
+
+Xrandomizer for crystals 
+ need 4 of them (crystals-1, crystals-2, crystals-3, crystals-4)
+
+
+add numbers each click to total (crystalsTotal)
+
+compare total number to gameNumber
+
+if it's bigger, then you lose 
+
+if it's the same, you win 
+
+update the total win and loss number 
+
+reset the game 
