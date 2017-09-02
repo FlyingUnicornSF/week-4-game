@@ -24,7 +24,7 @@ $(document).ready(function() {
                 "hp": 115,
                 "attackPower": 7,
                 "counterAttack": 8,
-                "img": "assets/images/squirtle.png"
+                "img": "assets/images/Squirtle.jpeg"
             },
             {
                 "name": "Pikachu",
